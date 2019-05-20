@@ -27,6 +27,11 @@
         <module>web</module>
     </modules>
 
+    <ciManagement>
+        <system>Jenkins</system>
+        <url>https://builds.apache.org/job/maven-box/job/maven-clean-plugin/</url>
+    </ciManagement>
+
     <build>
         <pluginManagement>
             <plugins>
